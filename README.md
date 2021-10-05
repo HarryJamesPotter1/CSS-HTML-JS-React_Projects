@@ -1,2 +1,2 @@
 # CSS-HTML-JS_Projects
-My Web Design Projects are stored here
+My CSS, HTML and JavaScript projects are stored here
