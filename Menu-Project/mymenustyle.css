@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "Lobster";
+  src: url("fonts/fonts/Courgette/Courgette-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Sac";
+  src: url("fonts/fonts/Sacramento/Sacramento-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Gothic";
+  src: url("fonts/fonts/Didact_Gothic/DidactGothic-Regular.ttf");
+}
+
+body {
+  background-color: black;
+  padding: 0px;
+  margin: 0px;
+  font-family: Lobster;
+}
+
+.nav {
+  width: 100%;
+  height: 100px;
+  margin-right: 0px;
+  background-color: black;
+  top: 0px;
+  transition-property: all;
+  transition-duration: 0.5s;
+  font-family: Lobster;
+}
+
+.nav:hover {
+  background-color: rgb(255, 247, 232);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(255, 247, 232);
+  font-size: 30px;
+  display: inline-block;
+  margin-left: 30px;
+  padding-top: 30px;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.nav-link:hover {
+  color: black;
+}
+.container-one {
+  width: 97%;
+  margin-left: 1.5%;
+  height: 1200px;
+  background-image: url("menu.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture-one {
+  width: 100%;
+  height: 500px;
+  background-color: rgba(59, 54, 38, 0.116);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 247, 232);
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+.picture-one:hover {
+  color: black;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.picture-one h1 {
+  font-size: 125px;
+}
+
+.container-two {
+  width: 100%;
+  height: 1700px;
+  background-color: black;
+}
+
+.left-two {
+  width: 47.5%;
+  height: 97%;
+  background-color: rgb(255, 247, 232);
+  float: left;
+  bottom: 0%;
+  margin-left: 1.5%;
+  text-align: center;
+}
+
+.right-two {
+  width: 47.5%;
+  height: 97%;
+  background-color: rgb(255, 247, 232);
+  bottom: 0%;
+  margin-left: 51%;
+  margin-top: 1.5%;
+  text-align: center;
+}
+
+.category {
+  font-size: 70px;
+  font-family: Sac;
+}
+
+.food {
+  font-size: 30px;
+  font-family: Gothic;
+  margin-top: 10px;
+}
+
+.price {
+  margin-bottom: 80px;
+}
+
+.empty-div-right-two {
+  height: 0.25%;
+  width: 100%;
+}
+
+.right-two-spacer {
+  width: 100%;
+  height: 40px;
+}

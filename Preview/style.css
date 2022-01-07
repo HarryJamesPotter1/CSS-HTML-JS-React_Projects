@@ -1,0 +1,32 @@
+body{
+    background-color: #000000;
+    color: #ff0000;
+}
+
+h1{
+    color: brown;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: cyan;
+}
+
+h4{
+    color: lawngreen;
+}
+
+h5{
+    color: fuchsia;
+}
+
+.goldParagraph{
+    color: gold;
+}
+
+.colorParagraph{
+    color: mediumspringgreen;
+}
